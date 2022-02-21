@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 2</title>
+</head>
+
+<body>
+	<!-- Анатомия тега -->
+
+	<!-- Без закрывающего элемента -->
+	<!-- <имя_тега имя_aтрибута="значение_атрибута" имя_aтрибута="значение_атрибута"> -->
+
+	<!-- С закрывающим элементом  -->
+	<!-- <имя_тега имя_фтрибута="значение_атрибута"> -->
+	<!-- </имя_тега> -->
+
+	<!-- Строительные теги (блочные)-->
+
+	<!-- Шапка (хедер) сайта/блока-->
+	<header class="header">
+		Я верхняя часть сайта
+		<!-- Предназначение: Навигация -->
+		<nav class="menu">
+			Я навигация сайта
+		</nav>
+	</header>
+	<!-- Предназначение: Главная.основная/самобытная информация страницы -->
+	<main class="main">
+		Я основная часть сайта
+		<!-- Не имеет чёткого предназначения -->
+		<div id="block" title="Я подсказка" class="block">
+			Я не понятно кто
+		</div>
+	</main>
+	<!-- Предназначение: Подвал(футер) сайта/блока -->
+	<footer class="footer">
+		Я нижняя часть сайта
+		<nav class="menu">
+			Я навигация сайта
+		</nav>
+	</footer>
+
+	<!-- Теги для контента -->
+
+	<!-- Предназначение: параграф с текстом (блочные)-->
+	<p class="text">
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam est odit fugit, unde sapiente culpa illo
+		reiciendis quaerat maiores totam ipsam earum vero sequi eius? Hic earum maxime neque iure.
+	</p>
+	<p>
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro officiis blanditiis et dicta quidem doloribus
+		aliquam quo nesciunt maiores est? Dolores esse cumque consequuntur accusantium. Autem praesentium qui quos odio?
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio laboriosam autem rerum veniam quae rem saepe
+		eligendi sapiente unde, vel explicabo ad sed repellat, illo non ipsa sequi obcaecati cumque?
+	</p>
+	<!-- Предназначение: заголовки (блочные)-->
+	<h1>Я заголовок №1</h1>
+	<h2>Я заголовок №2</h2>
+	<h3>Я заголовок №3</h3>
+	<h4>Я заголовок №4</h4>
+	<h5 id="title-5">Я заголовок №5</h5>
+	<h6>Я заголовок №6</h6>
+
+	<!-- Предназначение: выделение (строчные)-->
+	<!-- <mark></mark> -->
+	Lorem, <span> ipsum </span> dolor sit amet <mark>consectetur</mark> adipisicing elit. Maiores, libero deserunt.
+	Labore accusantium aspernatur, sunt quia temporibus a asperiores. Ad adipisci eius iste unde aspernatur! Ipsam
+	numquam ratione deserunt nostrum.
+
+	<!-- Предночначение: перевод строки (блочный)-->
+	<p>
+		Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Quia repellat iste obcaecati reiciendis sit assumenda
+		dolorem maiores doloremque! Voluptatum quos adipisci sapiente harum numquam perspiciatis quo ducimus, asperiores
+		maxime facilis!
+	</p>
+
+	<!-- Предназначение: переход на страницу\сайт\блок (строчный) -->
+	<!-- target="_blank" открыть в новом окне -->
+	<a href="#title-5">Страница</a>
+	<a target="_blank" href="https://www.jw.org/ru/">Сайт</a>
+	<a href="about.html">Файл</a>
+
+	<!-- Предназначение: маркированный список (блочный) -->
+	<ul>
+		<li>Я пункт списка №1</li>
+		<li>Я пункт списка №2</li>
+		<ul>
+			<li>Я подпункт списка №1</li>
+			<li>Я подпункт списка №2</li>
+			<li>Я подпункт списка №3</li>
+			<ul>
+				<li>Я подподпункт списка№1</li>
+			</ul>
+		</ul>
+		<li>Я пункт списка №3</li>
+		<li>Я пункт списка №4</li>
+		<li>Я пункт списка №5</li>
+	</ul>
+
+	<!-- Предназначение: нумированный список (блочный) -->
+	<ol>
+		<li>Я пункт списка №1</li>
+		<li>Я пункт списка №2</li>
+		<ol>
+			<li>Я подпункт списка №1</li>
+			<li>Я подпункт списка №2</li>
+			<li>Я подпункт списка №3</li>
+			<ol>
+				<li>Я подподпункт списка№1</li>
+			</ol>
+		</ol>
+		<li>Я пункт списка №3</li>
+		<li>Я пункт списка №4</li>
+		<li>Я пункт списка №5</li>
+	</ol>
+
+	<!-- Предназначение: вывод картинки (блочно-строчный) -->ъ
+
+	<img src="img/IMG-2f7efaac5b3c661f14c9897fc403c0f3-V.jpg" alt="поле подсолнуха">
+
+
+
+	<!-- Пример -->
+	<header class="header">
+		<nav class="menu">
+			<ul class="menu_list">
+				<li>
+					<a href="" class="menu_link">Пункт меню</a>
+				</li>
+				<li>
+					<a href="" class="menu_link">Пункт меню</a>
+				</li>
+				<li>
+					<a href="" class="menu_link">Пункт меню</a>
+				</li>
+				<li>
+					<a href="" class="menu_link">Пункт меню</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main class="main">
+		<h1 class="title">
+			Заголовок
+		</h1>
+		<p class="text">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere repellendus <mark>maxime</mark> eveniet quae
+			modi dolores consectetur deserunt qui eum harum architecto quas minus fuga ducimus nulla inventore, nihil quis
+			ut!
+		</p>
+		<h2 class="subtitle">
+			Заголовок второго уровня
+		</h2>
+		<p class="text">
+			Lorem ipsum dolor sit amet, <a target="_blank" href="https://www.jw.org/ru/">consectetur</a> adipisicing elit.
+			Facere repellendus maxime eveniet quae modi dolores
+			consectetur deserunt qui eum harum architecto quas minus fuga ducimus nulla inventore, nihil quis ut!
+		</p>
+		<p class="text">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere repellendus maxime eveniet quae modi dolores
+			consectetur deserunt qui eum harum architecto quas minus fuga ducimus nulla inventore, nihil quis ut!
+		<h2 class="subtitle">
+			Заголовок второго уровня
+		</h2>
+		<p class="text">
+			Lorem ipsum dolor sit amet, <a target="_blank" href="https://www.jw.org/ru/">consectetur</a> adipisicing elit.
+			Facere
+			repellendus maxime eveniet quae modi dolores
+			consectetur deserunt qui eum harum architecto quas minus fuga ducimus nulla inventore, nihil quis ut!
+		</p>
+		<p class="text">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere repellendus maxime eveniet quae modi dolores
+			consectetur deserunt qui eum harum architecto quas minus fuga ducimus nulla inventore, nihil quis ut!
+		</p>
+		<h3 class="subtitle">
+			Заголовок nhtnmtuj уровня
+		</h3>
+		<p class="text">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere repellendus maxime eveniet quae modi dolores
+			consectetur deserunt qui eum harum architecto quas minus fuga ducimus nulla inventore, nihil quis ut!
+		</p>
+	</main>
+	<footer class="footer">
+		Все права защищены
+	</footer>
+</body>
+
+</html>
